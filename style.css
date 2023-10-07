@@ -2,51 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Coming Soon', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Oldenburg', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Flex', sans-serif;
-font-family: 'Roboto Mono', monospace;
 }
 
 body {
-   background-color:rgb(36, 65, 104);
-}
-header {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+   background-color:rgb(114, 158, 214);
 }
 
-.main-container {
+.wrapper {
+    max-width:fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(110, 238, 84);
     border: 8px solid black;
+    width: 110rem;
     margin-top: 4rem;
     margin-left: 35rem;
     margin-right: 35rem;
-    border-radius: 10px;
+    border-radius: 50px;
+}
+
+.img {
+    background-image: url('./TintinsLeksaker.jpg');
+    width: 45rem;
+    height: auto;
+    padding: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }
 
 .text-under-img {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 3rem;
     padding: 2rem;
+    margin-bottom: 15rem;
 }
 
 h1 {
-    margin-bottom: 1.5rem;
-    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 5rem;
 }
 
 p {
     margin-bottom: 1rem;
     font-weight: 500;
+}
+
+span {
+    font-style: italic;
 }
 
 
@@ -55,8 +63,6 @@ p {
     width: 30rem;
     height: 30rem;
     background-size:contain;
-    background-repeat: no-repeat;
     
-    aspect-ratio: 1 / 1;
     
     */
